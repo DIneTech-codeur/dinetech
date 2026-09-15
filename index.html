@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DineTech | Réparation, Maintenance & Création de Sites Web à Djougou, Bénin</title>
+<meta name="description" content="DineTech à Djougou (Bénin) : réparation téléphones & iPhone, déblocage FRP, maintenance informatique, installation Windows, création de sites web professionnels et design graphique. Devis rapide par WhatsApp.">
+<meta name="keywords" content="DineTech, réparation téléphone Djougou, déblocage FRP Bénin, réparation iPhone Djougou, maintenance informatique Djougou, installation Windows Djougou, création site web Djougou, création site web Bénin, développeur web Bénin, design graphique Djougou, technicien informatique Donga">
+<link rel="canonical" href="https://dinetech.site/">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="preload" href="logo.png" as="image">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="DineTech | Réparation, Maintenance & Création de Sites Web à Djougou">
+<meta property="og:description" content="Réparation téléphones & PC, maintenance informatique, création de sites web et design graphique à Djougou, Bénin. Devis rapide par WhatsApp.">
+<meta property="og:image" content="https://dinetech.site/logo.png">
+<meta property="og:url" content="https://dinetech.site/">
+<meta property="og:site_name" content="DineTech">
+<meta property="og:locale" content="fr_FR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DineTech | Djougou, Bénin">
+<meta name="twitter:description" content="Réparation, maintenance informatique, sites web & design graphique à Djougou, Bénin.">
+<meta name="twitter:image" content="https://dinetech.site/logo.png">
+<meta name="geo.placename" content="Djougou">
+<meta name="geo.region" content="BJ">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["LocalBusiness","Organization"],
+  "name": "DineTech",
+  "image": "https://dinetech.site/logo.png",
+  "url": "https://dinetech.site/",
+  "telephone": "+22991175358",
+  "email": "dinetechnet@gmail.com",
+  "founder": {
+    "@type": "Person",
+    "name": "Chérif-Dine Ouorou Idrissou Issa"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Gah, Îlot C/SB",
+    "addressLocality": "Djougou",
+    "addressRegion": "Donga",
+    "addressCountry": "BJ"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 9.7085, "longitude": 1.6663 },
+  "areaServed": [
+    {"@type":"City","name":"Djougou"},
+    {"@type":"Country","name":"Bénin"},
+    {"@type":"AdministrativeArea","name":"Monde entier (services numériques à distance)"}
+  ],
+  "priceRange": "Devis sur demande",
+  "openingHours": "Mo-Su 08:00-20:00",
+  "sameAs": []
+}
+</script>
+
+<style>
+:root{
+  --bg:#FAFBFC;
+  --bg-alt:#F2F5F9;
+  --ink:#0F1720;
+  --ink-soft:#4A5568;
+  --primary:#1E5FEA;
+  --primary-dark:#123E9E;
+  --accent:#0FB88A;
+  --line:#E4E9F0;
+  --card:#FFFFFF;
+  --radius:16px;
+  --ease:cubic-bezier(.22,1,.36,1);
+  --shadow:0 10px 30px -12px rgba(15,23,32,.15);
+  --font-display:'Space Grotesk',sans-serif;
+  --font-body:'Inter',sans-serif;
+  --font-mono:'JetBrains Mono',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--bg);
+  color:var(--ink);
+  font-family:var(--font-body);
+  line-height:1.6;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--font-display);letter-spacing:-.02em;font-weight:700}
+.mono{font-family:var(--font-mono)}
+
+/* ---------- Skip link & focus ---------- */
+.skip-link{position:absolute;left:-999px;top:0;background:var(--ink);color:#fff;padding:10px 16px;z-index:999;border-radius:0 0 8px 0}
+.skip-link:focus{left:0}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{
+  outline:3px solid var(--primary);outline-offset:2px;
+}
+
+/* ---------- Header ---------- */
+header{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  background:rgba(250,251,252,.78);
+  backdrop-filter:blur(14px) saturate(150%);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--ease),box-shadow .3s var(--ease);
+}
+header.scrolled{border-color:var(--line);box-shadow:0 2px 24px -8px rgba(15,23,32,.08)}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;max-width:1180px;margin:0 auto}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--font-display);font-weight:700;font-size:1.15rem}
+.brand img{height:34px;width:34px;border-radius:9px}
+.brand .tag{
+  font-family:var(--font-mono);font-size:.62rem;color:var(--ink-soft);
+  border:1px solid var(--line);padding:2px 7px;border-radius:20px;margin-left:6px;
+  letter-spacing:.04em;
+}
+.nav-links{display:flex;align-items:center;gap:2px}
+.nav-links a{
+  padding:9px 15px;border-radius:9px;font-size:.92rem;font-weight:500;color:var(--ink-soft);
+  transition:background .2s var(--ease),color .2s var(--ease);
+}
+.nav-links a:hover{background:var(--bg-alt);color:var(--ink)}
+.nav-links a.active{color:var(--primary);font-weight:600}
+.nav-cta{
+  display:flex;align-items:center;gap:8px;background:var(--primary);color:#fff!important;
+  padding:10px 18px;border-radius:10px;font-weight:600;font-size:.9rem;
+  box-shadow:0 6px 18px -6px rgba(30,95,234,.55);
+  transition:transform .2s var(--ease),box-shadow .2s var(--ease);
+}
+.nav-cta:hover{transform:translateY(-2px);box-shadow:0 10px 24px -6px rgba(30,95,234,.6)}
+.burger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:8px}
+.burger span{width:22px;height:2px;background:var(--ink);border-radius:2px;transition:.3s var(--ease)}
+.mobile-menu{
+  position:fixed;inset:0;background:var(--bg);z-index:99;transform:translateX(100%);
+  transition:transform .4s var(--ease);display:flex;flex-direction:column;
+  padding:100px 32px 40px;gap:6px;
+}
+.mobile-menu.open{transform:translateX(0)}
+.mobile-menu a{font-family:var(--font-display);font-size:1.5rem;font-weight:600;padding:14px 0;border-bottom:1px solid var(--line)}
+
+/* ---------- Hero ---------- */
+.hero{
+  position:relative;padding:150px 24px 100px;overflow:hidden;
+  background:linear-gradient(180deg,#FFFFFF 0%,var(--bg) 60%);
+}
+#node-canvas{position:absolute;inset:0;width:100%;height:100%;z-index:0;opacity:.55}
+.hero-inner{position:relative;z-index:2;max-width:1180px;margin:0 auto;text-align:center}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;font-family:var(--font-mono);font-size:.78rem;
+  color:var(--primary-dark);background:#EAF1FE;border:1px solid #D3E1FC;
+  padding:7px 14px;border-radius:30px;margin-bottom:28px;letter-spacing:.03em;
+}
+.eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.3)}}
+.hero h1{
+  font-size:clamp(2.3rem,5.5vw,4.1rem);line-height:1.08;margin-bottom:22px;
+}
+.hero h1 .highlight{
+  background:linear-gradient(100deg,var(--primary),var(--accent));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero p.lead{
+  max-width:640px;margin:0 auto 40px;font-size:1.15rem;color:var(--ink-soft);
+}
+.hero-ctas{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:64px}
+.btn{
+  display:inline-flex;align-items:center;gap:9px;padding:15px 26px;border-radius:12px;
+  font-weight:600;font-size:.98rem;cursor:pointer;border:none;transition:transform .25s var(--ease),box-shadow .25s var(--ease);
+}
+.btn-primary{background:var(--primary);color:#fff;box-shadow:0 10px 26px -8px rgba(30,95,234,.55)}
+.btn-primary:hover{transform:translateY(-3px);box-shadow:0 16px 32px -8px rgba(30,95,234,.6)}
+.btn-ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}
+.btn-ghost:hover{transform:translateY(-3px);border-color:var(--ink)}
+
+.stats-strip{
+  display:grid;grid-template-columns:repeat(4,1fr);max-width:920px;margin:0 auto;
+  border:1px solid var(--line);border-radius:20px;overflow:hidden;background:rgba(255,255,255,.7);
+  backdrop-filter:blur(6px);
+}
+.stat{padding:26px 12px;text-align:center;border-right:1px solid var(--line);position:relative}
+.stat:last-child{border-right:none}
+.stat .num{font-family:var(--font-display);font-size:1.9rem;font-weight:700;color:var(--primary-dark);font-variant-numeric:tabular-nums;position:relative;display:inline-block}
+.stat .num .count{
+  background:linear-gradient(120deg,var(--primary-dark),var(--primary),var(--accent));
+  background-size:200% auto;
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  display:inline-block;
+}
+.stat .num .count.pop{animation:countPop .5s var(--ease)}
+.stat.counted::before{
+  content:'';position:absolute;inset:8px;border-radius:14px;
+  box-shadow:0 0 0 0 rgba(30,95,234,.35);
+  animation:statGlow .7s ease-out;
+  pointer-events:none;
+}
+@keyframes countPop{
+  0%{transform:scale(1)}
+  45%{transform:scale(1.22);background-position:100% center}
+  100%{transform:scale(1);background-position:0% center}
+}
+@keyframes statGlow{
+  0%{box-shadow:0 0 0 0 rgba(30,95,234,.35)}
+  100%{box-shadow:0 0 0 14px rgba(30,95,234,0)}
+}
+.stat .label{font-size:.78rem;color:var(--ink-soft);margin-top:4px}
+
+/* ---------- Sections generic ---------- */
+section{padding:100px 24px}
+.section-head{max-width:640px;margin:0 auto 56px;text-align:center}
+.section-head .eyebrow{background:var(--bg-alt);border-color:var(--line);color:var(--ink-soft)}
+.section-head h2{font-size:clamp(1.8rem,3.4vw,2.6rem)}
+.section-head p{color:var(--ink-soft);margin-top:14px;font-size:1.05rem}
+
+/* ---------- Services ---------- */
+.services-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px;max-width:1180px;margin:0 auto;
+}
+.service-card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:30px 24px;transition:transform .3s var(--ease),box-shadow .3s var(--ease),border-color .3s var(--ease);
+  opacity:0;transform:translateY(24px);
+}
+.service-card.in{opacity:1;transform:translateY(0)}
+.service-card:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:var(--primary)}
+.service-icon{
+  width:50px;height:50px;border-radius:13px;display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,#EAF1FE,#E3FBF3);margin-bottom:18px;font-size:1.4rem;
+}
+.service-card h3{font-size:1.12rem;margin-bottom:10px}
+.service-card p{color:var(--ink-soft);font-size:.92rem;margin-bottom:14px}
+.service-card ul{display:flex;flex-direction:column;gap:6px}
+.service-card ul li{font-size:.84rem;color:var(--ink-soft);display:flex;gap:8px;align-items:flex-start}
+.service-card ul li::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--accent);margin-top:7px;flex-shrink:0}
+.service-card-more{background:linear-gradient(150deg,#EAF1FE,#E3FBF3);border-style:dashed;border-color:#C9DBFB}
+.service-card-more .service-icon{background:linear-gradient(135deg,var(--primary),var(--accent))}
+
+/* ---------- Process ---------- */
+.process{background:var(--bg-alt)}
+.process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;max-width:1100px;margin:0 auto;position:relative}
+.process-step{padding:0 20px;text-align:center;position:relative}
+.process-step::after{
+  content:'';position:absolute;top:26px;right:-10%;width:20%;height:1px;background:repeating-linear-gradient(90deg,var(--line) 0 6px,transparent 6px 12px);
+}
+.process-step:last-child::after{display:none}
+.step-num{
+  width:52px;height:52px;border-radius:50%;background:var(--card);border:2px solid var(--primary);
+  color:var(--primary);font-family:var(--font-mono);font-weight:700;display:flex;align-items:center;justify-content:center;
+  margin:0 auto 18px;font-size:1.05rem;position:relative;z-index:2;
+}
+.process-step h4{font-size:1rem;margin-bottom:8px}
+.process-step p{font-size:.86rem;color:var(--ink-soft)}
+
+/* ---------- Portfolio preview ---------- */
+.portfolio-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;max-width:1180px;margin:0 auto}
+.pf-card{
+  border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);background:var(--card);
+  transition:transform .3s var(--ease),box-shadow .3s var(--ease);
+}
+.pf-card:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+.pf-top{
+  height:150px;background:var(--bg-alt);position:relative;overflow:hidden;
+}
+.pf-top img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+.pf-body{padding:22px}
+.pf-body .tag{font-family:var(--font-mono);font-size:.7rem;color:var(--accent);text-transform:uppercase;letter-spacing:.05em}
+.pf-body h3{margin:8px 0 8px;font-size:1.08rem}
+.pf-body p{font-size:.88rem;color:var(--ink-soft)}
+.pf-link{display:inline-flex;align-items:center;gap:6px;margin-top:14px;font-size:.86rem;font-weight:600;color:var(--primary)}
+
+/* ---------- CTA band ---------- */
+.cta-band{
+  max-width:1180px;margin:0 auto;background:linear-gradient(120deg,var(--primary-dark),var(--primary) 60%,var(--accent) 130%);
+  border-radius:28px;padding:64px 40px;text-align:center;color:#fff;position:relative;overflow:hidden;
+}
+.cta-band h2{font-size:clamp(1.6rem,3vw,2.3rem);margin-bottom:14px}
+.cta-band p{opacity:.9;max-width:520px;margin:0 auto 30px}
+.cta-band .btn-primary{background:#fff;color:var(--primary-dark)}
+.cta-band .btn-primary:hover{box-shadow:0 16px 32px -8px rgba(0,0,0,.25)}
+
+/* ---------- Footer ---------- */
+footer{background:#0F1720;color:#C7D0DC;padding:64px 24px 28px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:32px;max-width:1180px;margin:0 auto 40px}
+.footer-brand{display:flex;align-items:center;gap:10px;font-family:var(--font-display);font-weight:700;color:#fff;font-size:1.1rem;margin-bottom:14px}
+.footer-brand img{height:30px;width:30px;border-radius:8px}
+.footer-col h5{color:#fff;font-size:.85rem;margin-bottom:16px;font-family:var(--font-mono);letter-spacing:.04em;text-transform:uppercase}
+.footer-col ul{display:flex;flex-direction:column;gap:10px}
+.footer-col a{font-size:.9rem;transition:color .2s}
+.footer-col a:hover{color:#fff}
+.footer-bottom{
+  max-width:1180px;margin:0 auto;padding-top:24px;border-top:1px solid #1F2A38;
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:.8rem;color:#7C8797;
+}
+.legal-block{max-width:1180px;margin:40px auto 0;padding-top:32px;border-top:1px solid #1F2A38;font-size:.76rem;color:#6B7686;line-height:1.7}
+.legal-block h6{color:#9BA6B5;font-size:.78rem;margin:14px 0 6px;font-family:var(--font-mono)}
+.back-top{
+  position:fixed;bottom:24px;right:24px;width:46px;height:46px;border-radius:50%;background:var(--primary);
+  display:flex;align-items:center;justify-content:center;color:#fff;box-shadow:0 8px 20px -6px rgba(30,95,234,.6);
+  opacity:0;pointer-events:none;transition:opacity .3s,transform .3s;z-index:80;
+}
+.back-top.show{opacity:1;pointer-events:auto}
+.wa-float{
+  position:fixed;bottom:24px;left:24px;width:56px;height:56px;border-radius:50%;background:var(--accent);
+  display:flex;align-items:center;justify-content:center;color:#fff;font-size:1.5rem;z-index:80;
+  box-shadow:0 8px 24px -6px rgba(15,184,138,.6);animation:float 3s ease-in-out infinite;
+}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+
+@media(max-width:900px){
+  .nav-links,.nav-cta{display:none}
+  .burger{display:flex}
+  .services-grid{grid-template-columns:repeat(2,1fr)}
+  .process-grid{grid-template-columns:repeat(2,1fr);gap:32px 0}
+  .process-step::after{display:none}
+  .portfolio-grid{grid-template-columns:repeat(2,1fr)}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .stats-strip{grid-template-columns:repeat(2,1fr)}
+  .stat{border-bottom:1px solid var(--line)}
+}
+@media(max-width:560px){
+  .services-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .portfolio-grid{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation-duration:.001ms!important;transition-duration:.001ms!important}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+
+<a href="#main" class="skip-link">Aller au contenu</a>
+
+<header id="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <img src="logo.png" alt="Logo DineTech" onerror="this.style.display='none'">
+      DineTech <span class="tag">Djougou · BJ</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="apropos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a class="nav-cta" href="https://wa.me/22991175358?text=Bonjour%20DineTech%2C%20je%20souhaite%20un%20devis." target="_blank" rel="noopener">
+      💬 Devis WhatsApp
+    </a>
+    <button class="burger" id="burgerBtn" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Accueil</a>
+  <a href="services.html">Services</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="apropos.html">À propos</a>
+  <a href="contact.html">Contact</a>
+  <a href="https://wa.me/22991175358" style="color:var(--primary)" target="_blank" rel="noopener">WhatsApp →</a>
+</div>
+
+<main id="main">
+
+  <section class="hero">
+    <canvas id="node-canvas"></canvas>
+    <div class="hero-inner">
+      <div class="eyebrow"><span class="dot"></span> Disponible tous les jours · Djougou, Bénin</div>
+      <h1>On répare, on construit,<br>on <span class="highlight">connecte</span> votre activité.</h1>
+      <p class="lead">DineTech répare vos téléphones et ordinateurs, maintient votre matériel informatique, et conçoit des sites web et identités visuelles qui font grandir votre activité, à Djougou et partout dans le monde.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="https://wa.me/22991175358?text=Bonjour%20DineTech%2C%20je%20souhaite%20un%20devis." target="_blank" rel="noopener">
+          💬 Obtenir un devis rapide
+        </a>
+        <a class="btn btn-ghost" href="services.html">Voir tous les services</a>
+      </div>
+      <div class="stats-strip">
+        <div class="stat"><div class="num"><span class="count" data-target="5" data-suffix="+">0</span></div><div class="label">Services numériques</div></div>
+        <div class="stat"><div class="num"><span class="count" data-target="4" data-suffix="+">0</span></div><div class="label">Réalisations web livrées</div></div>
+        <div class="stat"><div class="num"><span class="count" data-target="7" data-suffix="j/7">0</span></div><div class="label">Disponibilité</div></div>
+        <div class="stat"><div class="num"><span class="count" data-target="100" data-suffix="%">0</span></div><div class="label">Devis sur mesure</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="section-head">
+      <div class="eyebrow">Nos services</div>
+      <h2>Tout ce qu'il faut pour votre monde numérique</h2>
+      <p>De la réparation d'un téléphone à la création d'un site web professionnel, DineTech centralise vos besoins numériques.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">📱</div>
+        <h3>Réparation téléphone</h3>
+        <p>Toutes marques, y compris iPhone.</p>
+        <ul>
+          <li>Déblocage & FRP bypass toutes marques</li>
+          <li>Réparation écran, batterie, charge</li>
+          <li>Réparation iPhone spécialisée</li>
+          <li>Diagnostic rapide & conseils</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🖥️</div>
+        <h3>Maintenance informatique</h3>
+        <p>Réparation système & installation complète.</p>
+        <ul>
+          <li>Réparation système approfondie</li>
+          <li>Installation tous types de Windows</li>
+          <li>Nettoyage, optimisation, virus</li>
+          <li>Sauvegarde & récupération de données</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🌐</div>
+        <h3>Création de sites web</h3>
+        <p>Sites vitrines modernes et optimisés.</p>
+        <ul>
+          <li>Design responsive sur mesure</li>
+          <li>SEO local, national & international</li>
+          <li>Hébergement & mise en ligne</li>
+          <li>Intégration WhatsApp & réseaux</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🎨</div>
+        <h3>Design graphique</h3>
+        <p>Identité visuelle qui vous ressemble.</p>
+        <ul>
+          <li>Logos & chartes graphiques</li>
+          <li>Supports de communication</li>
+          <li>Visuels réseaux sociaux</li>
+          <li>Flyers & affiches</li>
+        </ul>
+      </div>
+      <div class="service-card service-card-more">
+        <div class="service-icon">✨</div>
+        <h3>Et bien plus encore</h3>
+        <p>Tout service numérique réalisable en ligne.</p>
+        <ul>
+          <li>Gestion de réseaux sociaux</li>
+          <li>Assistance & formation à distance</li>
+          <li>Automatisation de tâches en ligne</li>
+          <li>Toute autre demande numérique</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="process">
+    <div class="section-head">
+      <div class="eyebrow">Comment ça marche</div>
+      <h2>Simple, rapide, sans détour</h2>
+    </div>
+    <div class="process-grid">
+      <div class="process-step">
+        <div class="step-num">01</div>
+        <h4>Vous décrivez le besoin</h4>
+        <p>Panne, projet web ou design, expliquez-nous tout sur WhatsApp.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">02</div>
+        <h4>Diagnostic & devis</h4>
+        <p>Réponse rapide avec une estimation claire, sans engagement.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">03</div>
+        <h4>Réalisation</h4>
+        <p>Réparation ou développement soigné, avec suivi régulier.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">04</div>
+        <h4>Livraison & SAV</h4>
+        <p>Remise finale et accompagnement après livraison.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio-preview">
+    <div class="section-head">
+      <div class="eyebrow">Réalisations</div>
+      <h2>Ils nous font confiance</h2>
+      <p>Un aperçu de nos sites web livrés à des ONG et institutions au Bénin.</p>
+    </div>
+    <div class="portfolio-grid">
+      <div class="pf-card">
+        <div class="pf-top"><img src="https://image.thum.io/get/width/600/noanimate/https://snaong.vercel.app/" alt="Aperçu du site Sud-Nord Actions" loading="lazy"></div>
+        <div class="pf-body">
+          <div class="tag">Site institutionnel · ONG</div>
+          <h3>Sud-Nord Actions</h3>
+          <p>Site vitrine 8 pages avec actualités, galerie et système de dons.</p>
+          <a class="pf-link" href="portfolio.html">Voir le projet →</a>
+        </div>
+      </div>
+      <div class="pf-card">
+        <div class="pf-top"><img src="https://image.thum.io/get/width/600/noanimate/https://sabouyo.vercel.app/" alt="Aperçu du site ONG Sabouyô" loading="lazy"></div>
+        <div class="pf-body">
+          <div class="tag">Site institutionnel · ONG</div>
+          <h3>ONG Sabouyô</h3>
+          <p>Plateforme complète : équipe, actualités, galerie, dons en ligne.</p>
+          <a class="pf-link" href="portfolio.html">Voir le projet →</a>
+        </div>
+      </div>
+      <div class="pf-card">
+        <div class="pf-top"><img src="https://image.thum.io/get/width/600/noanimate/https://www.jedecong.org/" alt="Aperçu du site JEDEC-ONG" loading="lazy"></div>
+        <div class="pf-body">
+          <div class="tag">Site institutionnel · ONG</div>
+          <h3>JEDEC-ONG</h3>
+          <p>Protection de l'enfance, VBG, DSSR et cohésion sociale au Bénin.</p>
+          <a class="pf-link" href="portfolio.html">Voir le projet →</a>
+        </div>
+      </div>
+      <div class="pf-card">
+        <div class="pf-top"><img src="https://image.thum.io/get/width/600/noanimate/https://fejebong.org/" alt="Aperçu du site FEJEB" loading="lazy"></div>
+        <div class="pf-body">
+          <div class="tag">Galerie & communication</div>
+          <h3>FEJEB</h3>
+          <p>Santé, éducation et autonomisation des femmes, enfants et jeunes.</p>
+          <a class="pf-link" href="portfolio.html">Voir le projet →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="cta-band">
+      <h2>Un projet en tête ? Parlons-en.</h2>
+      <p>Réponse rapide, devis clair, sans engagement, tous les jours, sur WhatsApp.</p>
+      <a class="btn btn-primary" href="https://wa.me/22991175358?text=Bonjour%20DineTech%2C%20je%20souhaite%20un%20devis." target="_blank" rel="noopener">💬 Discuter sur WhatsApp</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-col">
+      <div class="footer-brand"><img src="logo.png" alt="" onerror="this.style.display='none'">DineTech</div>
+      <p style="font-size:.88rem;max-width:280px;color:#9BA6B5">Réparation, maintenance informatique, création de sites web et design graphique, à Djougou, au Bénin et partout dans le monde.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Navigation</h5>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Services</h5>
+      <ul>
+        <li><a href="services.html">Réparation téléphone</a></li>
+        <li><a href="services.html">Maintenance PC</a></li>
+        <li><a href="services.html">Création site web</a></li>
+        <li><a href="services.html">Design graphique</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Contact</h5>
+      <ul>
+        <li><a href="https://wa.me/22991175358" target="_blank" rel="noopener">WhatsApp: +229 91 17 53 58</a></li>
+        <li><a href="mailto:dinetechnet@gmail.com">dinetechnet@gmail.com</a></li>
+        <li><a href="contact.html">Djougou, Bénin</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="legal-block">
+    <h6>Mentions légales</h6>
+    <p>DineTech. Entreprise individuelle enregistrée au Bénin. IFU : 0 2023 8019 8749. RCCM : DJOUGOU N° RB/DGO/26 A 108191. Siège : Îlot C/SB, Gah, Djougou I, Djougou, Donga, Bénin. Éditeur : Ouorou Idrissou Issa Chérif-Dine.</p>
+    <h6>Confidentialité</h6>
+    <p>Les informations transmises via WhatsApp ou par email (nom, contact, message) servent uniquement à répondre à votre demande de devis ou de support. Aucune donnée n'est vendue ou partagée à des tiers.</p>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> DineTech. Tous droits réservés.</span>
+    <span>Djougou, Bénin</span>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/22991175358?text=Bonjour%20DineTech" target="_blank" rel="noopener" aria-label="Contacter sur WhatsApp">💬</a>
+<a class="back-top" id="backTop" href="#top" aria-label="Retour en haut">↑</a>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+
+/* Header scroll state */
+const header = document.getElementById('site-header');
+const backTop = document.getElementById('backTop');
+window.addEventListener('scroll', () => {
+  header.classList.toggle('scrolled', window.scrollY > 10);
+  backTop.classList.toggle('show', window.scrollY > 600);
+});
+
+/* Mobile menu */
+const burger = document.getElementById('burgerBtn');
+const mobileMenu = document.getElementById('mobileMenu');
+burger.addEventListener('click', () => {
+  const open = mobileMenu.classList.toggle('open');
+  burger.setAttribute('aria-expanded', open);
+});
+mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+  mobileMenu.classList.remove('open');
+  burger.setAttribute('aria-expanded', false);
+}));
+
+/* Scroll reveal */
+const revealEls = document.querySelectorAll('.service-card');
+const io = new IntersectionObserver((entries) => {
+  entries.forEach((e, i) => {
+    if (e.isIntersecting) {
+      setTimeout(() => e.target.classList.add('in'), i * 80);
+      io.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.15 });
+revealEls.forEach(el => io.observe(el));
+
+/* Compteurs animés (stats-strip) */
+const reduceMotionStats = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+function animateCount(el) {
+  const target = parseFloat(el.dataset.target);
+  const suffix = el.dataset.suffix || '';
+  const statBox = el.closest('.stat');
+
+  if (reduceMotionStats) {
+    el.textContent = target + suffix;
+    return;
+  }
+
+  const duration = 1500;
+  const start = performance.now();
+  const easeOutExpo = t => t === 1 ? 1 : 1 - Math.pow(2, -10 * t);
+
+  function tick(now) {
+    const elapsed = now - start;
+    const progress = Math.min(elapsed / duration, 1);
+    const eased = easeOutExpo(progress);
+    const current = Math.round(eased * target);
+    el.textContent = current + suffix;
+
+    if (progress < 1) {
+      requestAnimationFrame(tick);
+    } else {
+      el.textContent = target + suffix;
+      el.classList.add('pop');
+      statBox.classList.add('counted');
+      setTimeout(() => el.classList.remove('pop'), 500);
+    }
+  }
+  requestAnimationFrame(tick);
+}
+
+const countEls = document.querySelectorAll('.count');
+const statsIO = new IntersectionObserver((entries) => {
+  entries.forEach((e, i) => {
+    if (e.isIntersecting) {
+      setTimeout(() => animateCount(e.target), i * 130);
+      statsIO.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.5 });
+countEls.forEach(el => statsIO.observe(el));
+
+/* Signature visual: connected node network in hero canvas */
+(function(){
+  const canvas = document.getElementById('node-canvas');
+  const ctx = canvas.getContext('2d');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let w, h, nodes = [];
+  const hero = document.querySelector('.hero');
+
+  function resize(){
+    w = canvas.width = hero.offsetWidth;
+    h = canvas.height = hero.offsetHeight;
+    const count = Math.min(70, Math.floor((w*h)/18000));
+    nodes = Array.from({length: count}, () => ({
+      x: Math.random()*w,
+      y: Math.random()*h,
+      vx: (Math.random()-0.5)*0.25,
+      vy: (Math.random()-0.5)*0.25,
+      r: Math.random()*1.6+1
+    }));
+  }
+
+  function draw(){
+    ctx.clearRect(0,0,w,h);
+    for(const n of nodes){
+      if(!reduceMotion){
+        n.x += n.vx; n.y += n.vy;
+        if(n.x < 0 || n.x > w) n.vx *= -1;
+        if(n.y < 0 || n.y > h) n.vy *= -1;
+      }
+    }
+    for(let i=0;i<nodes.length;i++){
+      for(let j=i+1;j<nodes.length;j++){
+        const a = nodes[i], b = nodes[j];
+        const dx = a.x-b.x, dy = a.y-b.y;
+        const dist = Math.sqrt(dx*dx+dy*dy);
+        if(dist < 130){
+          ctx.strokeStyle = `rgba(30,95,234,${(1-dist/130)*0.18})`;
+          ctx.lineWidth = 1;
+          ctx.beginPath();
+          ctx.moveTo(a.x,a.y);
+          ctx.lineTo(b.x,b.y);
+          ctx.stroke();
+        }
+      }
+    }
+    for(const n of nodes){
+      ctx.beginPath();
+      ctx.arc(n.x,n.y,n.r,0,Math.PI*2);
+      ctx.fillStyle = 'rgba(15,184,138,0.55)';
+      ctx.fill();
+    }
+    if(!reduceMotion) requestAnimationFrame(draw);
+  }
+
+  resize();
+  draw();
+  window.addEventListener('resize', resize);
+})();
+</script>
+
+</body>
+</html>
